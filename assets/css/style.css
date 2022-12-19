@@ -1,0 +1,328 @@
+/************************************ Table of Contents  *****************************
+
+
+
+
+*************************************************************************************/
+
+
+
+
+/* Font Family Here  */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Oxygen&display=swap');
+
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+
+
+
+header{
+    background-color: var(--light-black);
+}
+
+#topbar h2{
+    color: var(--white);
+}
+
+#topbar .toggle_button{
+    color: var(--white);
+}
+#topbar .toggle_button:hover{
+    background-color: var(--orange);
+    border-radius: 47%;
+}
+
+
+.dropdown-content {
+    display: none;
+}
+.dropdown-content p{
+    padding-left: 20px;
+    font-weight: 600;
+    color: var(--white);
+}
+.dropdown-content p:hover{
+    color: var(--orange);
+}
+.dropdown-content .active{
+   color: var(--orange);
+}
+
+#topbar .show {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Home Page Here  */
+
+
+
+
+
+
+
+
+
+
+
+.home_content_p p{
+    color: var(--orange);
+}
+
+.home_content_p h1{
+    color: var(--white);
+    font-weight: 800;
+}
+
+.home_content_a a{
+    text-decoration: none;
+    color: var(--white);
+}
+.home_content_a a:hover{
+    color: var(--orange);
+}
+
+.home_content_customers h2{
+    font-weight: 800;
+    font-size: 3rem;
+}
+.home_content_customers p{
+    color: var(--light-gray);
+}
+
+.home_down_arrow i{
+    font-size: 2.5rem;
+    color: var(--white);
+}
+
+.home_right_side img{
+    transform: rotate(8deg);
+    z-index: 2;
+    width: 80%;
+}
+
+.home_right_img{
+    position: relative;
+    padding-left: 50px;
+}
+
+
+
+.home_shadow_img{
+    position: absolute;
+    top: 0;
+}
+
+.home_shadow_img img{
+    width: 80%;
+    transform: rotate(-8deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pricing Section Here  */
+
+#pricing{
+    background-color: var(--light-black);
+}
+
+#pricing p{
+    color: var(--orange);
+}
+
+.servicing_color{
+    color: var(--light-gray) !important;
+}
+
+#pricing h3{
+    color: var(--white);
+    font-weight: 800;   
+}
+
+.rect{
+    width: 100%;
+    height: 75px;
+    background-color: var(--light-gray);
+}
+
+.pricing_cards p{
+    color: var(--white) !important;
+}
+
+.pricing_cards i{
+    color: var(--orange);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Here  */
+
+
+
+#footer_form i{
+    color: var(--orange);
+}
+
+#footer_form p{
+    color: var(--white);
+}
+
+.contact_us{
+    color: var(--orange) !important;
+}
+
+.get_in_touch{
+    color: var(--white);
+    font-weight: 800;
+}
+
+#footer_form{
+   background-color: var(--light-black);
+}
+
+.fill_form{
+    color: var(--light-gray) !important;
+}
+
+#footer_form input{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid var(--light-gray);
+    outline: none;
+    background-color: transparent;
+}
+
+.submit_button{
+    background-color: var(--orange) !important;
+    border: none !important;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+.submit_button:hover{
+    background-color: var(--black) !important;
+}
+
+
+.submit_button i{
+    color: var(--white) !important;
+}
+.submit_button i:hover{
+    color: var(--orange) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Note Here  */
+
+
+
+footer{
+    background-color: var(--black);
+}
+
+footer h6{
+    color: var(--white);
+}
+
+footer i{
+    color: var(--white);
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}

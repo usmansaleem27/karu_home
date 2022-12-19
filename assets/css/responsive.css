@@ -1,0 +1,12 @@
+@media only screen and (max-width: 556px){
+    .home_right_side img{
+        width: 60%;
+    }
+    .home_shadow_img img{
+        width: 60%;
+    }
+    .home_content_customers h2{
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+}
