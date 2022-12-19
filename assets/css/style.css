@@ -157,6 +157,73 @@ header{
 
 
 
+
+
+#timeline{
+    background-color: var(--light-black-50);
+}
+
+#timeline .time_line_heading{
+    color: var(--orange);
+}
+
+#timeline h3{
+    color: var(--white);
+    font-weight: 800; 
+}
+
+.timeline_border{
+    border-bottom: 1px solid var(--light-gray);
+    margin-right: 70px;
+}
+
+.date_color{
+    color: var(--text-black);
+    font-size: 20px;
+}
+
+.designer_color{
+    color: var(--white);
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Pricing Section Here  */
 
 #pricing{
@@ -189,6 +256,7 @@ header{
 .pricing_cards i{
     color: var(--orange);
 }
+
 
 
 

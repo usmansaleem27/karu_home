@@ -9,4 +9,7 @@
         font-weight: 700;
         font-size: 1.5rem;
     }
+    .timeline_border{
+        margin-right: 0px;
+    }
 }
