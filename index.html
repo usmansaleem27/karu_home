@@ -26,7 +26,7 @@
 
 <body>
 
-    <!-- Header Starts Here  -->
+    <!--------------------------------- Header Starts Here  ------------------------------------->
 
     <header>
         <section id="topbar">
@@ -36,13 +36,13 @@
             <div class="container-fluid g-0">
                 <div class="row g-0 ps-lg-3 pt-lg-3 ps-md-3 pe-md-3 p-1 pt-md-3">
                     <div class="col-6">
-                        <h2 class="ps-lg-3">KURA</h2>
+                        <h2 class="ps-lg-3 pt-2">KURA</h2>
                     </div>
                     <div class="col-6">
                         <div class="d-flex justify-content-end align-items-center">
                             <div class="">
                                 <div class="dropdown-content" id="myDropdown">
-                                    <div class="d-flex">
+                                    <div class="d-flex animate__animated animate__backInLeft">
                                         <p class="mb-0 pe-3 active">Home</p>
                                         <p class="mb-0 pe-3">Portfolio</p>
                                         <p class="mb-0 pe-3">Skills</p>
@@ -55,8 +55,7 @@
                             </div>
 
                             <div class="d-flex justify-content-end align-items-center h-100">
-                                <span onclick="navbarToggle(this)" class="toggle_button me-lg-4 ps-3 pe-3 pt-2 pb-2"><i
-                                        class="bi bi-toggles"></i></span>
+                                <span onclick="navbarToggle()" class="toggle_button me-lg-4 ps-3 pe-3 pt-2 pb-2"><i class="bi bi-list fs-3"></i></span>
                             </div>
                         </div>
                     </div>
@@ -66,7 +65,7 @@
             <!-- Topbar Ends Here  -->
 
             <!-- Home Here  -->
-
+            <div class="home_page_content_display">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-12">
@@ -101,7 +100,7 @@
                     </div>
                     <div class="col-lg-6 col-12">
                         <div
-                            class="d-flex align-items-center h-100 justify-content-center home_right_side pt-lg-0 pt-3 pb-lg-0 pb-4">
+                            class="d-flex align-items-center h-100 justify-content-center home_right_side pt-lg-0 pt-3 pb-lg-0 pb-5">
                             <div class="home_right_img">
                                 <div class="d-flex justify-content-center">
                                     <img src="assets/images/hero_img.jpg" class="img-fluid rounded-3" alt="">
@@ -114,53 +113,400 @@
                     </div>
                 </div>
             </div>
+        </div>
 
             <!-- Home Ends Here  -->
 
         </section>
     </header>
 
-    <!-- Header Ends Here  -->
+    <!--------------------------------- Header Ends Here  ----------------------------------->
+
+
+
+    <!-------------------------------------- Cards Section Here  ------------------------------------------->
+
+    <div class="cards_carousel">
+    <div class="mt-lg-5 pt-lg-5 mt-3 pt-3 pb-lg-5 mb-lg-5 mb-3 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="portfolio_carousel">
+                        <p>Portfolio</p>
+                        <h3>Selected Works</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="true">
+                    <div class="carousel-inner">
+            
+            
+                        <!-- First Slider -->
+            
+                        <div class="carousel-item active">
+                            <div class="row">
+            
+                                <div class="col-md-4 mb-3">
+                                    <div class="card_position">
+                                        <div class="card rounded-3 border-0">
+                                        <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                        <div class="overlay">
+                                            <div class="d-flex align-items-center h-100 justify-content-center">
+                                                <div class="card overlay_card border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    <div class="">
+                                                        <div class="d-flex justify-content-end card_icon">
+                                                        <i class="bi bi-arrow-up-right"></i>
+                                                    </div>
+                                                    <div class="position-absolute bottom-0">
+                                                        <h2 class="">Bona Green</h2>
+                                                        <p>Youtube</p>
+                                                    </div>
+                                                </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card_position">
+                                        <div class="card rounded-3 border-0">
+                                        <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                        <div class="overlay">
+                                            <div class="d-flex align-items-center h-100 justify-content-center">
+                                                <div class="card overlay_card border-0">
+                                                    <div class="">
+                                                    <div class="">
+                                                        <div class="d-flex justify-content-end card_icon">
+                                                        <i class="bi bi-arrow-up-right"></i>
+                                                    </div>
+                                                    <div class="position-absolute bottom-0">
+                                                        <h2 class="">Bona Green</h2>
+                                                        <p>Youtube</p>
+                                                    </div>
+                                                </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card_position">
+                                        <div class="card rounded-3 border-0">
+                                        <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                        <div class="overlay">
+                                            <div class="d-flex align-items-center h-100 justify-content-center">
+                                                <div class="card overlay_card border-0">
+                                                    <div class="">
+                                                    <div class="">
+                                                        <div class="d-flex justify-content-end card_icon">
+                                                        <i class="bi bi-arrow-up-right"></i>
+                                                    </div>
+                                                    <div class="position-absolute bottom-0">
+                                                        <h2 class="">Bona Green</h2>
+                                                        <p>Youtube</p>
+                                                    </div>
+                                                </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+            
+                            </div>
+                        </div>
+            
+            
+                        <!-- Second Slider  -->
+            
+            
+            
+            
+                        <div class="carousel-item">
+                            <div class="row">
+            
+                                <div class="col-md-4 mb-3">
+                                    <div class="card_position">
+                                        <div class="card rounded-3 border-0">
+                                        <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                        <div class="overlay">
+                                            <div class="d-flex align-items-center h-100 justify-content-center">
+                                                <div class="card overlay_card border-0">
+                                                    <div class="">
+                                                    <div class="">
+                                                        <div class="d-flex justify-content-end card_icon">
+                                                        <i class="bi bi-arrow-up-right"></i>
+                                                    </div>
+                                                    <div class="position-absolute bottom-0">
+                                                        <h2 class="">Bona Green</h2>
+                                                        <p>Youtube</p>
+                                                    </div>
+                                                </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card_position">
+                                        <div class="card rounded-3 border-0">
+                                        <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                        <div class="overlay">
+                                            <div class="d-flex align-items-center h-100 justify-content-center">
+                                                <div class="card overlay_card border-0">
+                                                    <div class="">
+                                                    <div class="">
+                                                        <div class="d-flex justify-content-end card_icon">
+                                                        <i class="bi bi-arrow-up-right"></i>
+                                                    </div>
+                                                    <div class="position-absolute bottom-0">
+                                                        <h2 class="">Bona Green</h2>
+                                                        <p>Youtube</p>
+                                                    </div>
+                                                </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card_position">
+                                        <div class="card rounded-3 border-0">
+                                        <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                        <div class="overlay">
+                                            <div class="d-flex align-items-center h-100 justify-content-center">
+                                                <div class="card overlay_card border-0">
+                                                    <div class="">
+                                                    <div class="">
+                                                        <div class="d-flex justify-content-end card_icon">
+                                                        <i class="bi bi-arrow-up-right"></i>
+                                                    </div>
+                                                    <div class="position-absolute bottom-0">
+                                                        <h2 class="">Bona Green</h2>
+                                                        <p>Youtube</p>
+                                                    </div>
+                                                </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+            
+                            </div>
+                        </div>
+            
+            
+            
+            
+                        <!-- Third Slider  -->
+            
+            
+            
+            
+                        <div class="carousel-item">
+                            <div class="row">
+            
+                                <div class="col-md-4 mb-3">
+                                    <div class="card_position">
+                                        <div class="card rounded-3 border-0">
+                                        <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                        <div class="overlay">
+                                            <div class="d-flex align-items-center h-100 justify-content-center">
+                                                <div class="card overlay_card border-0">
+                                                    <div class="">
+                                                    <div class="">
+                                                        <div class="d-flex justify-content-end card_icon">
+                                                        <i class="bi bi-arrow-up-right"></i>
+                                                    </div>
+                                                    <div class="position-absolute bottom-0">
+                                                        <h2 class="">Bona Green</h2>
+                                                        <p>Youtube</p>
+                                                    </div>
+                                                </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card_position">
+                                        <div class="card rounded-3 border-0">
+                                        <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                        <div class="overlay">
+                                            <div class="d-flex align-items-center h-100 justify-content-center">
+                                                <div class="card overlay_card border-0">
+                                                    <div class="">
+                                                    <div class="">
+                                                        <div class="d-flex justify-content-end card_icon">
+                                                        <i class="bi bi-arrow-up-right"></i>
+                                                    </div>
+                                                    <div class="position-absolute bottom-0">
+                                                        <h2 class="">Bona Green</h2>
+                                                        <p>Youtube</p>
+                                                    </div>
+                                                </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card_position">
+                                        <div class="card rounded-3 border-0">
+                                        <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                        <div class="overlay">
+                                            <div class="d-flex align-items-center h-100 justify-content-center">
+                                                <div class="card overlay_card border-0">
+                                                    <div class="">
+                                                    <div class="">
+                                                        <div class="d-flex justify-content-end card_icon">
+                                                        <i class="bi bi-arrow-up-right"></i>
+                                                    </div>
+                                                    <div class="position-absolute bottom-0">
+                                                        <h2 class="">Bona Green</h2>
+                                                        <p>Youtube</p>
+                                                    </div>
+                                                </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+            
+                            </div>
+                        </div>
+            
+            
+            
+            
+            
+                    </div>
+                  </div>
+            </div>
+
+
+            <!-- Slider Icons  -->
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="carousel_slider_icons">
+                        <div class="d-flex justify-content-end">  
+                            <i class="bi bi-arrow-left pe-3" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev"></i>
+                            <i class="bi bi-arrow-right" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!------------------------------------------ Modal Here  ------------------------------>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <video loop controls src="assets/video/Argentina and Lionel Messi are crowned World Cup champions_360p.mp4"></video>
+      </div>
+    </div>
+  </div>
+
+
+    <!------------------------------------------------ Cards Section Ends Here  ------------------------------------------->
 
 
 
 
 
+<!--------------------------------------- Skills Section Here  ------------------------------------------->
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+<section id="skills">
+    <div class="">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-12">
+                                <div class="d-flex justify-content-center align-items-center h-100">
+                                    <div class="pt-lg-5 ps-lg-5 pe-lg-5 pb-lg-5 p-3">
+                                        <div class="">
+                                            <p class="skills_heading">Skills</p>
+                                            <h3 class="programming_heading text_color pb-lg-5 pb-3">Programming Skills</h3>
+                                            <p class="skills_paragraph text_color pb-3">For more than 20 years our experts have been accomplishing enough with modern Web Development, new generation web and app programming language.</p>
+                                        </div>
+                                        <div class="">
+                                            <div class="d-flex justify-content-between">
+                                                <p class="mb-1 text_color">HTML & CSS</p>
+                                                <p class="mb-2 text_color">95%</p>
+                                            </div>
+                                            <div class="progress bars_height mb-2">
+                                                <div class="progress-bar html_bars" role="progressbar" aria-label="Warning example" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                              </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="d-flex justify-content-between">
+                                                <p class="mb-1 text_color">Javascript</p>
+                                                <p class="mb-2 text_color">80%</p>
+                                            </div>
+                                            <div class="progress bars_height mb-2">
+                                                <div class="progress-bar html_bars" role="progressbar" aria-label="Warning example" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                              </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="d-flex justify-content-between">
+                                                <p class="mb-1 text_color">WordPress</p>
+                                                <p class="mb-2 text_color">90%</p>
+                                            </div>
+                                            <div class="progress bars_height">
+                                                <div class="progress-bar html_bars" role="progressbar" aria-label="Warning example" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <div class="pt-5 pb-5">
+                                    <div class="skills_img d-flex justify-content-end">
+                                        <img src="assets/images/boy_skills.jpg" width="100%" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------------------------------------- Skills Section Ends Here  ------------------------------------------->
 
 
 
-
-
-
-
-
-
-    <!-- Timeline Section Here  -->
+    <!----------------------------------- Timeline Section Here  --------------------------------------->
 
     <section id="timeline">
         <div class="container-fluid g-0">
@@ -244,45 +590,11 @@
         </div>
     </section>
 
+    <!----------------------------------- Timeline Section Ends Here  --------------------------------------->
 
 
+    <!------------------------------------- Pricing Section Starts Here -------------------------------------->
 
-
-
-
-
-
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <!-- Pricing Section Starts Here -->
     <section id="pricing">
         <div class=".container-fluid g-0">
             <div class="row g-0">
@@ -353,41 +665,312 @@
         </div>
     </section>
 
+    <!------------------------------------- Pricing Section Ends Here -------------------------------------->
 
 
 
 
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <!------------------------------------- Latest News Section  ---------------------------------------------->
     
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <!-- Footer Here  -->
+    <div class="cards_carousel">
+        <div class="mt-lg-5 pt-lg-5 mt-3 pt-3 pb-lg-5 mb-lg-5 mb-3 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="portfolio_carousel">
+                            <p>News Cards</p>
+                            <h3>Latest News</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="carouselExampleControlsTouching" class="carousel slide" data-bs-touch="false">
+                        <div class="carousel-inner">
+                
+                
+                            <!-- First Slider -->
+                
+                            <div class="carousel-item active">
+                                <div class="row">
+                
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card_position">
+                                            <div class="card rounded-3 border-0">
+                                            <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center h-100 justify-content-center">
+                                                    <div class="card overlay_card border-0">
+                                                        <div class="">
+                                                        <div class="">
+                                                            <div class="d-flex justify-content-end card_icon">
+                                                            <i class="bi bi-arrow-up-right"></i>
+                                                        </div>
+                                                        <div class="position-absolute bottom-0">
+                                                            <h2 class="">Bona Green</h2>
+                                                            <p>Youtube</p>
+                                                        </div>
+                                                    </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card_position">
+                                            <div class="card rounded-3 border-0">
+                                            <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center h-100 justify-content-center">
+                                                    <div class="card overlay_card border-0">
+                                                        <div class="">
+                                                        <div class="">
+                                                            <div class="d-flex justify-content-end card_icon">
+                                                            <i class="bi bi-arrow-up-right"></i>
+                                                        </div>
+                                                        <div class="position-absolute bottom-0">
+                                                            <h2 class="">Bona Green</h2>
+                                                            <p>Youtube</p>
+                                                        </div>
+                                                    </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card_position">
+                                            <div class="card rounded-3 border-0">
+                                            <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center h-100 justify-content-center">
+                                                    <div class="card overlay_card border-0">
+                                                        <div class="">
+                                                        <div class="">
+                                                            <div class="d-flex justify-content-end card_icon">
+                                                            <i class="bi bi-arrow-up-right"></i>
+                                                        </div>
+                                                        <div class="position-absolute bottom-0">
+                                                            <h2 class="">Bona Green</h2>
+                                                            <p>Youtube</p>
+                                                        </div>
+                                                    </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                
+                                </div>
+                            </div>
+                
+                
+                            <!-- Second Slider  -->
+                
+                
+                
+                
+                            <div class="carousel-item">
+                                <div class="row">
+                
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card_position">
+                                            <div class="card rounded-3 border-0">
+                                            <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center h-100 justify-content-center">
+                                                    <div class="card overlay_card border-0">
+                                                        <div class="">
+                                                        <div class="">
+                                                            <div class="d-flex justify-content-end card_icon">
+                                                            <i class="bi bi-arrow-up-right"></i>
+                                                        </div>
+                                                        <div class="position-absolute bottom-0">
+                                                            <h2 class="">Bona Green</h2>
+                                                            <p>Youtube</p>
+                                                        </div>
+                                                    </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card_position">
+                                            <div class="card rounded-3 border-0">
+                                            <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center h-100 justify-content-center">
+                                                    <div class="card overlay_card border-0">
+                                                        <div class="">
+                                                        <div class="">
+                                                            <div class="d-flex justify-content-end card_icon">
+                                                            <i class="bi bi-arrow-up-right"></i>
+                                                        </div>
+                                                        <div class="position-absolute bottom-0">
+                                                            <h2 class="">Bona Green</h2>
+                                                            <p>Youtube</p>
+                                                        </div>
+                                                    </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card_position">
+                                            <div class="card rounded-3 border-0">
+                                            <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center h-100 justify-content-center">
+                                                    <div class="card overlay_card border-0">
+                                                        <div class="">
+                                                        <div class="">
+                                                            <div class="d-flex justify-content-end card_icon">
+                                                            <i class="bi bi-arrow-up-right"></i>
+                                                        </div>
+                                                        <div class="position-absolute bottom-0">
+                                                            <h2 class="">Bona Green</h2>
+                                                            <p>Youtube</p>
+                                                        </div>
+                                                    </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                
+                                </div>
+                            </div>
+                
+                
+                
+                
+                            <!-- Third Slider  -->
+                
+                
+                
+                
+                            <div class="carousel-item">
+                                <div class="row">
+                
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card_position">
+                                            <div class="card rounded-3 border-0">
+                                            <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center h-100 justify-content-center">
+                                                    <div class="card overlay_card border-0">
+                                                        <div class="">
+                                                        <div class="">
+                                                            <div class="d-flex justify-content-end card_icon">
+                                                            <i class="bi bi-arrow-up-right"></i>
+                                                        </div>
+                                                        <div class="position-absolute bottom-0">
+                                                            <h2 class="">Bona Green</h2>
+                                                            <p>Youtube</p>
+                                                        </div>
+                                                    </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card_position">
+                                            <div class="card rounded-3 border-0">
+                                            <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center h-100 justify-content-center">
+                                                    <div class="card overlay_card border-0">
+                                                        <div class="">
+                                                        <div class="">
+                                                            <div class="d-flex justify-content-end card_icon">
+                                                            <i class="bi bi-arrow-up-right"></i>
+                                                        </div>
+                                                        <div class="position-absolute bottom-0">
+                                                            <h2 class="">Bona Green</h2>
+                                                            <p>Youtube</p>
+                                                        </div>
+                                                    </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card_position">
+                                            <div class="card rounded-3 border-0">
+                                            <img src="assets/images/card_image_a.jpg" class="img-fluid rounded-3" alt="">
+                                            <div class="overlay">
+                                                <div class="d-flex align-items-center h-100 justify-content-center">
+                                                    <div class="card overlay_card border-0">
+                                                        <div class="">
+                                                        <div class="">
+                                                            <div class="d-flex justify-content-end card_icon">
+                                                            <i class="bi bi-arrow-up-right"></i>
+                                                        </div>
+                                                        <div class="position-absolute bottom-0">
+                                                            <h2 class="">Bona Green</h2>
+                                                            <p>Youtube</p>
+                                                        </div>
+                                                    </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                
+                                </div>
+                            </div>
+                
+                
+                
+                
+                
+                        </div>
+                      </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="carousel_slider_icons">
+                            <div class="d-flex justify-content-end">  
+                                <i class="bi bi-arrow-left pe-3" data-bs-target="#carouselExampleControlsTouching" data-bs-slide="prev"></i>
+                                <i class="bi bi-arrow-right" data-bs-target="#carouselExampleControlsTouching" data-bs-slide="next"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    
+    <!------------------------------------- Latest News Section Ends Here ---------------------------------------------->
+
+
+
+
+    <!--------------------------------------- Footer Here  --------------------------------------------------->
 
 
     <section>
@@ -399,15 +982,15 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-6 col-12">
-                                    <div class="pb-3">
+                                    <div class="pb-3 mb-4">
                                         <p class="contact_us pt-5">Contact</p>
                                         <h3 class="get_in_touch pb-lg-5 pt-lg-1 pb-3">GET IN TOUCH</h3>
                                         <p class="fill_form">Please fill out the form on this section to contact with
                                             me. <br>
                                             Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday</p>
-                                        <p class="pt-5"><i class="bi bi-geo-alt-fill pe-2"></i> 44 Place, Tokyo, Japan
-                                        </p>
-                                        <div class="footer_icons_details">
+                                            <div class="footer_icons_details">
+                                            <p class="pt-5"><i class="bi bi-geo-alt-fill pe-2"></i> 44 Place, Tokyo, Japan
+                                            </p>
                                         <p><i class="bi bi-telephone-fill pe-2"></i> +77 033 442 55 57</p>
                                         <p><i class="bi bi-envelope pe-2"></i> dodo@gmail.com</p>
                                         <p><i class="bi bi-globe pe-2"></i> www.domain.com</p>
@@ -476,14 +1059,12 @@
     </section>
 
 
+    <!--------------------------------------- Footer Ends Here  --------------------------------------------------->
 
 
+<!---------------------------------------- Audio Here  ----------------------------------------------->
 
-
-
-
-
-    
+    <audio id="audio" src="assets/audio/1.mp3"></audio>
 
     <!-- Footer Ends Here  -->
 

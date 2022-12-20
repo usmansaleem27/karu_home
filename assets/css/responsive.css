@@ -1,73 +1,74 @@
-@media only screen and (max-width: 5000px) and (min-width: 1025px){
-    .get_in_touch{
+@media only screen and (max-width: 5000px) and (min-width: 1025px) {
+    .get_in_touch {
         font-weight: 800;
-        font-size: 3rem;
-    }
-    .contact_us{
-        font-size: 1.5rem;
-    }
-    .fill_form{
-        font-size: 1.5rem;
-    }
-    .footer_icons_details{
-        font-size: 1.5rem;
-    }
-    .form_footer_inputs{
-        padding-top: 40px;
-   }
-   #footer_form input{
-    padding: 15px;
-    }
-    .submit_button{
-        padding: 15px;
-    }
-    .pricing_font{
-        font-size: 1.5rem;
-    }
-    .services_font{
         font-size: 2.5rem;
     }
-    .servicing_color{
-        font-size: 1.5rem;
+
+    .contact_us {
+        font-size: 1.3rem;
     }
-    header{
+
+    .fill_form {
+        font-size: 1.3rem;
+    }
+
+    .footer_icons_details {
+        font-size: 1.2rem;
+    }
+
+    .form_footer_inputs {
+        padding-top: 40px;
+    }
+
+    #footer_form input {
+        padding: 15px;
+    }
+
+    .submit_button {
+        padding: 15px;
+    }
+
+    .pricing_font {
+        font-size: 1.3rem;
+    }
+
+    .services_font {
+        font-size: 2.3rem;
+    }
+
+    .servicing_color {
+        font-size: 1.2rem;
+    }
+
+    header {
         height: 100vh;
     }
-    /* .home_content_p h1{
-        font-size: 3rem;
-    }
-    .bernard_smith{
-        font-size: 1.5rem;
-    }
-    .home_content_a a{
-        font-size: 1.5rem;
-    }
-    .home_content_customers p{
-        font-size: 1.5rem;
-    } */
 }
 
 
 
+@media only screen and (max-width:2200px) and (min-width: 1500px) {
+    .home_page_content_display {
+        padding-top: 70px;
+    }
+}
 
 
-
-
-
-
-
-@media only screen and (max-width: 556px){
-    .home_right_side img{
+@media only screen and (max-width: 556px) {
+    .home_right_side img {
         width: 60%;
     }
-    .home_shadow_img img{
+
+    .home_shadow_img img {
         width: 60%;
     }
-    .home_content_customers h2{
+
+    .home_content_customers h2 {
         font-weight: 700;
         font-size: 1.5rem;
     }
-    .timeline_border{
+
+    .timeline_border {
         margin-right: 0px;
     }
 }

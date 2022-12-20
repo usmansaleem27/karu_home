@@ -1,10 +1,13 @@
 /************************************ Table of Contents  *****************************
 
-
-
+1. Header
+2. Card Carousel
+3. Skills
+4. Timeline
+5. Pricing
+6. Footer
 
 *************************************************************************************/
-
 
 
 
@@ -12,34 +15,32 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Oxygen&display=swap');
 
 
-
-
-
-
-body{
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
-    
 }
 
 
+/*********************************** 1. Header Here  ******************************/
 
-header{
+
+
+header {
     background-color: var(--light-black);
 }
 
-#topbar h2{
+#topbar h2 {
     color: var(--white);
 }
 
-#topbar .toggle_button{
+#topbar .toggle_button {
     color: var(--white);
 }
-#topbar .toggle_button:hover{
+
+#topbar .toggle_button:hover {
     background-color: var(--orange);
     border-radius: 47%;
 }
@@ -48,350 +49,273 @@ header{
 .dropdown-content {
     display: none;
 }
-.dropdown-content p{
+
+.dropdown-content p {
     padding-left: 20px;
     font-weight: 600;
     color: var(--white);
+
 }
-.dropdown-content p:hover{
+
+.dropdown-content p:hover {
     color: var(--orange);
     cursor: pointer;
 }
-.dropdown-content .active{
-   color: var(--orange);
+
+.dropdown-content .active {
+    color: var(--orange);
 }
 
 #topbar .show {
     display: block;
 }
 
+/****************** Home Page Here  ********************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* Home Page Here  */
-
-
-
-
-
-
-
-
-
-
-
-.home_content_p p{
+.home_content_p p {
     color: var(--orange);
 }
 
-.home_content_p h1{
+.home_content_p h1 {
     color: var(--white);
     font-weight: 800;
 }
 
-.home_content_a a{
+.home_content_a a {
     text-decoration: none;
     color: var(--white);
 }
-.home_content_a a:hover{
+
+.home_content_a a:hover {
     color: var(--orange);
 }
 
-.home_content_customers h2{
+.home_content_customers h2 {
     font-weight: 800;
     font-size: 3rem;
 }
-.home_content_customers p{
+
+.home_content_customers p {
     color: var(--light-gray);
 }
 
-.home_down_arrow i{
+.home_down_arrow i {
     font-size: 2.5rem;
     color: var(--white);
 }
 
-.home_right_side img{
+.home_right_side img {
     transform: rotate(8deg);
     z-index: 2;
     width: 80%;
 }
 
-.home_right_img{
+.home_right_img {
     position: relative;
     padding-left: 50px;
 }
 
 
 
-.home_shadow_img{
+.home_shadow_img {
     position: absolute;
     top: 0;
 }
 
-.home_shadow_img img{
+.home_shadow_img img {
     width: 80%;
     transform: rotate(-8deg);
 }
 
+/*********************************** 2. Cards Carousel Here  ******************************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#timeline{
+.cards_carousel {
     background-color: var(--light-black-50);
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
-#timeline .time_line_heading{
+.portfolio_carousel p {
     color: var(--orange);
 }
 
-#timeline h3{
+.portfolio_carousel h3 {
     color: var(--white);
-    font-weight: 800; 
+    font-size: 2.3rem;
+    font-weight: 700;
+    padding-bottom: 40px;
 }
 
-.timeline_border{
+.card_position {
+    position: relative;
+}
+
+.overlay_card {
+    position: absolute;
+    top: 15px;
+    background-color: var(--light-black);
+    width: 91%;
+    height: 93%;
+    display: none;
+    cursor: pointer;
+}
+
+.card:hover .overlay_card {
+    display: block;
+
+}
+
+.card_icon i {
+    font-size: 50px;
+    padding: 20px;
+    color: var(--white);
+}
+
+.overlay_card h2 {
+    padding-left: 20px;
+    color: var(--white);
+}
+
+.overlay_card p {
+    padding-left: 20px;
+    color: var(--light-gray);
+}
+
+.carousel_slider_icons i {
+    color: var(--white);
+    font-size: 2.5rem;
+}
+
+/*********************************** 3. Skills Section Here  ******************************/
+
+#skills {
+    background-color: var(--light-black);
+}
+
+.html_bars {
+    background-color: var(--orange);
+    height: 8px;
+}
+
+.bars_height {
+    height: 8px;
+    border-radius: 0;
+}
+
+.skills_heading {
+    color: var(--orange);
+    font-size: 1.2rem;
+}
+
+.programming_heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.text_color {
+    color: var(--white);
+}
+
+/*********************************** 4. Timeline Section Here  ******************************/
+
+#timeline {
+    background-color: var(--light-black-50);
+}
+
+#timeline .time_line_heading {
+    color: var(--orange);
+}
+
+#timeline h3 {
+    color: var(--white);
+    font-weight: 800;
+}
+
+.timeline_border {
     border-bottom: 1px solid var(--light-gray);
     margin-right: 70px;
 }
 
-.date_color{
+.date_color {
     color: var(--text-black);
     font-size: 18px;
 }
 
-.designer_color{
+.designer_color {
     color: var(--white);
     font-size: 19px;
 }
 
+/*********************************** 5. Pricing Section Here  ******************************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Pricing Section Here  */
-
-#pricing{
+#pricing {
     background-color: var(--light-black);
 }
 
-.pricing_font{
+.pricing_font {
     color: var(--orange);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
-.servicing_color{
+.servicing_color {
     color: var(--light-gray);
 }
 
-#pricing h3{
+#pricing h3 {
     color: var(--white);
-    font-weight: 800;   
+    font-weight: 700;
 }
 
-.rect{
+.rect {
     width: 100%;
     height: 75px;
     background-color: var(--light-gray);
 }
-.pricing_type_colors{
+
+.pricing_type_colors {
     color: var(--white);
     font-weight: 600;
     font-size: 1.2rem;
 }
-.pricing_icons_colors{
+
+.pricing_icons_colors {
     color: var(--white);
 }
 
-
-.rect:hover{
+.rect:hover {
     background-color: var(--orange);
     box-shadow: 1px 1px 15px 1px var(--light-gray);
 
 }
 
+/*********************************** 6. Footer Here  ******************************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Footer Here  */
-
-
-
-#footer_form i{
+#footer_form i {
     color: var(--orange);
 }
 
-#footer_form p{
+#footer_form p {
     color: var(--white);
 }
 
-.contact_us{
+.contact_us {
     color: var(--orange) !important;
 }
 
-.get_in_touch{
+.get_in_touch {
     color: var(--white);
     font-weight: 800;
 }
 
-#footer_form{
-   background-color: var(--light-black);
+#footer_form {
+    background-color: var(--light-black-50);
 }
 
-.fill_form{
+.fill_form {
     color: var(--light-gray) !important;
 }
 
-#footer_form input{
+#footer_form input {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -401,7 +325,7 @@ header{
     background-color: transparent;
 }
 
-.submit_button{
+.submit_button {
     background-color: var(--orange) !important;
     border: none !important;
     outline: none;
@@ -410,50 +334,31 @@ header{
     width: 100%;
     padding: 10px;
 }
-.submit_button:hover{
+
+.submit_button:hover {
     background-color: var(--black) !important;
 }
 
 
-.submit_button i{
+.submit_button i {
     color: var(--white) !important;
 }
-.submit_button i:hover{
+
+.submit_button i:hover {
     color: var(--orange) !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer Note Here  */
 
-
-
-footer{
+footer {
     background-color: var(--black);
 }
 
-footer h6{
+footer h6 {
     color: var(--white);
 }
 
-footer i{
+footer i {
     color: var(--white);
     padding-left: 5px;
     padding-right: 5px;
