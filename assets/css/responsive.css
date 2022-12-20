@@ -1,6 +1,6 @@
 @media only screen and (max-width: 5000px) and (min-width: 1025px) {
     .get_in_touch {
-        font-weight: 800;
+        font-weight: 700;
         font-size: 2.5rem;
     }
 
@@ -9,7 +9,7 @@
     }
 
     .fill_form {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .footer_icons_details {
