@@ -45,6 +45,10 @@ header {
     border-radius: 47%;
 }
 
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
 
 .dropdown-content {
     display: none;

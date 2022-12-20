@@ -8,3 +8,10 @@
     --light-black-50 : #494B50;
     --text-black : #afadad;
 }
+
+.dark-theme{
+    --light-black : #fff;
+    --white : #000000;
+    --light-black-50 : #fff;
+    --black : #fff;
+}
