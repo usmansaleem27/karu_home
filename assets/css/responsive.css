@@ -1,3 +1,58 @@
+@media only screen and (max-width: 1440px) and (min-width: 1025px){
+    .get_in_touch{
+        font-weight: 800;
+        font-size: 3rem;
+    }
+    .contact_us{
+        font-size: 1.5rem;
+    }
+    .fill_form{
+        font-size: 1.5rem;
+    }
+    .footer_icons_details{
+        font-size: 1.5rem;
+    }
+    .form_footer_inputs{
+        padding-top: 40px;
+   }
+   #footer_form input{
+    padding: 15px;
+    }
+    .submit_button{
+        padding: 15px;
+    }
+    .pricing_font{
+        font-size: 1.5rem;
+    }
+    .services_font{
+        font-size: 2.5rem;
+    }
+    .servicing_color{
+        font-size: 1.5rem;
+    }
+    .home_content_p h1{
+        font-size: 3rem;
+    }
+    .bernard_smith{
+        font-size: 1.5rem;
+    }
+    .home_content_a a{
+        font-size: 1.5rem;
+    }
+    .home_content_customers p{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 556px){
     .home_right_side img{
         width: 60%;

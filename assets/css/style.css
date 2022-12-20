@@ -30,6 +30,7 @@ body{
 
 header{
     background-color: var(--light-black);
+   
 }
 
 #topbar h2{
@@ -55,6 +56,7 @@ header{
 }
 .dropdown-content p:hover{
     color: var(--orange);
+    cursor: pointer;
 }
 .dropdown-content .active{
    color: var(--orange);
@@ -179,13 +181,67 @@ header{
 
 .date_color{
     color: var(--text-black);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .designer_color{
     color: var(--white);
-    font-size: 20px;
+    font-size: 19px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -230,12 +286,13 @@ header{
     background-color: var(--light-black);
 }
 
-#pricing p{
+.pricing_font{
     color: var(--orange);
+    font-size: 1.3rem;
 }
 
 .servicing_color{
-    color: var(--light-gray) !important;
+    color: var(--light-gray);
 }
 
 #pricing h3{
@@ -248,14 +305,23 @@ header{
     height: 75px;
     background-color: var(--light-gray);
 }
-
-.pricing_cards p{
-    color: var(--white) !important;
+.pricing_type_colors{
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.pricing_icons_colors{
+    color: var(--white);
 }
 
-.pricing_cards i{
-    color: var(--orange);
+
+.rect:hover{
+    background-color: var(--orange);
+    box-shadow: 1px 1px 15px 1px var(--light-gray);
+
 }
+
+
 
 
 
