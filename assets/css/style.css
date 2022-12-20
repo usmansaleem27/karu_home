@@ -31,6 +31,12 @@ body {
 header {
     background-color: var(--light-black);
 }
+#topbar .topbar_nav{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: var(--light-black);
+}
 
 #topbar h2 {
     color: var(--white);
