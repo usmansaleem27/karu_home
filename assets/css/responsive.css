@@ -21,7 +21,7 @@
     }
 
     #footer_form input {
-        padding: 15px;
+        padding: 10px;
     }
 
     .submit_button {
@@ -55,13 +55,6 @@
 
 
 @media only screen and (max-width: 556px) {
-    .home_right_side img {
-        width: 60%;
-    }
-
-    .home_shadow_img img {
-        width: 60%;
-    }
 
     .home_content_customers h2 {
         font-weight: 700;
@@ -71,4 +64,24 @@
     .timeline_border {
         margin-right: 0px;
     }
+    .my_icons{
+        display: flex;
+        justify-content: center;
+    }
+    .copyright_reserves{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .home_right_side img {
+        transform: rotate(0deg);
+        z-index: 2;
+        width: 80%;
+        margin-top: 20px;
+    }
+    .home_right_img {
+        padding-left: 0px;
+    }
 }
+

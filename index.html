@@ -55,7 +55,7 @@
                             </div>
 
                             <div class="d-flex justify-content-end align-items-center h-100">
-                                <span onclick="navbarToggle()" class="toggle_button me-lg-4 ps-3 pe-3 pt-2 pb-2"><i class="bi bi-list fs-3"></i></span>
+                                <span onclick="navbarToggle()" class="toggle_button me-lg-4 ps-3 pe-3 pt-2 pb-2"><i id="nav_toggle" class="bi bi-list fs-3"></i></span>
                                 <span class="me-3"><i id="icon" class="bi bi-brightness-high-fill fs-3"></i></span>
                             </div>
                         </div>
@@ -67,11 +67,11 @@
             <!-- Topbar Ends Here  -->
 
             <!-- Home Here  -->
-            <div class="home_page_content_display pt-1">
+            <div class="home_page_content_display pt-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-12">
-                        <div class="home_content_p pt-lg-3 pt-md-4 pb-lg-3">
+                    <div class="col-lg-6 col-12 order-lg-1 order-md-1 order-sm-1 order-2">
+                        <div class="home_content_p pt-lg-3 pt-md-4 pt-4 pb-lg-3">
                             <p class="bernard_smith pt-lg-5 pt-md-2 pt-3">Bernard Smith</p>
                             <h1 class="pt-3 pb-2">CREATIVE DESIGNER BASED IN JAPAN</h1>
                         </div>
@@ -95,19 +95,19 @@
                         </div>
                         <div class="pt-lg-0 pt-md-4 pb-lg-5">
                             <div
-                                class="home_down_arrow animate__animated animate__bounce animate__infinite	infinite animate__slow 3s">
+                                class="home_down_arrow animate__animated animate__bounce animate__infinite	infinite animate__slow 3s d-none d-lg-block d-md-block">
                                 <i class="bi bi-arrow-down"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-12">
+                    <div class="col-lg-6 col-12 order-lg-2 order-md-2 order-sm-2 order-1">
                         <div
-                            class="d-flex align-items-center h-100 justify-content-center home_right_side pt-lg-0 pt-3 pb-lg-0 pb-5">
+                            class="d-flex align-items-center h-100 justify-content-center home_right_side pt-lg-0 pt-3 pb-lg-0 pb-3">
                             <div class="home_right_img">
                                 <div class="d-flex justify-content-center">
                                     <img src="assets/images/hero_img.jpg" class="img-fluid rounded-3" alt="">
                                 </div>
-                                <div class="home_shadow_img">
+                                <div class="home_shadow_img d-none d-lg-block d-md-block d-sm-block">
                                     <img src="assets/images/hero_shadow_img.png" class="img-fluid rounded-3" alt="">
                                 </div>
                             </div>
@@ -427,10 +427,10 @@
 
   
   <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true" >
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
-        <video loop controls src="assets/video/Argentina and Lionel Messi are crowned World Cup champions_360p.mp4"></video>
+        <video loop controls width="100%" src="assets/video/Argentina and Lionel Messi are crowned World Cup champions_360p.mp4"></video>
       </div>
     </div>
   </div>
@@ -444,7 +444,7 @@
 
 <!--------------------------------------- Skills Section Here  ------------------------------------------->
 
-<section id="skills">
+    <section id="skills">
     <div class="">
         <div class="container-fluid">
             <div class="row">
@@ -453,7 +453,7 @@
                         <div class="row">
                             <div class="col-lg-6 col-12">
                                 <div class="d-flex justify-content-center align-items-center h-100">
-                                    <div class="pt-lg-5 ps-lg-5 pe-lg-5 pb-lg-5 p-3">
+                                    <div class="pt-lg-5 pt-5 ps-lg-5 pe-lg-5 pb-lg-5 p-3">
                                         <div class="">
                                             <p class="skills_heading">Skills</p>
                                             <h3 class="programming_heading text_color pb-lg-5 pb-3">Programming Skills</h3>
@@ -491,7 +491,7 @@
                             </div>
                             <div class="col-lg-6 col-12">
                                 <div class="pt-5 pb-5">
-                                    <div class="skills_img d-flex justify-content-end">
+                                    <div class="skills_img d-flex justify-content-end d-none d-lg-block d-md-block">
                                         <img src="assets/images/boy_skills.jpg" width="100%" class="img-fluid" alt="">
                                     </div>
                                 </div>
@@ -502,7 +502,7 @@
             </div>
         </div>
     </div>
-</section>
+    </section>
 
 <!--------------------------------------- Skills Section Ends Here  ------------------------------------->
 
@@ -518,7 +518,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <p class="time_line_heading pt-lg-5 pt-3">Timeline</p>
-                                <h3>Working Period</h3>
+                                <h3 class="pb-3">Working Period</h3>
                             </div>
                         </div>
                         <div class="timeline_border ps-2 pe-2 pt-4 pb-lg-1 pb-3 mb-1">
@@ -675,7 +675,7 @@
     <!------------------------------------- Latest News Section  ---------------------------------------->
     
     <div class="cards_carousel">
-        <div class="mt-lg-5 pt-lg-5 mt-3 pt-3 pb-lg-5 mb-lg-5 mb-3 pb-3">
+        <div class="mt-lg-3 pt-lg-5 mt-3 pt-3 pb-lg-0 mb-lg-0 mb-3 pb-3">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -1000,7 +1000,7 @@
                                 </div>
                                 </div>
                                 <div class="col-lg-6 col-12">
-                                    <div class="pt-lg-5 pt-md-2 pb-lg-0 pb-4">
+                                    <div class="pt-lg-5 pt-md-2 pb-lg-0 pb-4 ps-lg-5 pe-lg-5">
 
                                         <div class="form_footer_inputs">
                                         <div class="pt-lg-5">
@@ -1037,18 +1037,19 @@
                         <div class="p-4">
                             <div class="container g-0">
                                 <div class="row g-0">
-                                    <div class="col-lg-6 col-md-6 col-12 order-lg-1 order-md-1 order-sm-2 order-2">
-                                        <div class="d-flex align-items-center h-100">
-                                            <h6 class="ps-1 mb-0 pb-0 fs-5">Copyright &copy; 2021. All rights reserved.</h6>
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div class="copyright_reserves">
+                                            <h6 class="ps-1 pt-1 mb-0 pb-0 fs-5">Copyright &copy; 2021. All rights reserved.</h6>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-md-6 col-12 order-lg-2 order-md-2 order-sm-1 order-1">
-                                        <div class="d-flex justify-content-end align-items-center h-100">
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div class="my_icons">
                                             <i class="bi bi-facebook pe-3 fs-5"></i>
                                             <i class="bi bi-meta pe-3 fs-5"></i>
                                             <i class="bi bi-messenger pe-3 fs-5"></i>
                                             <i class="bi bi-whatsapp pe-3 fs-5"></i>
                                         </div>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
