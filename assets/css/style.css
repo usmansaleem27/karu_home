@@ -354,7 +354,7 @@ header {
 }
 
 .fill_form {
-    color: var(--light-gray) !important;
+    color: var(--text-black) !important;
 }
 
 #footer_form input {
